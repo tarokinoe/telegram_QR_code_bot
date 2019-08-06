@@ -1,4 +1,4 @@
-Telegram bot. Can read QR code.
+Telegram bot. Can read QR code.  
 https://telegram.me/BarQRCodeBot
 
 ### Installing
@@ -8,9 +8,10 @@ https://telegram.me/BarQRCodeBot
    cd qr_bot
    ``` 
 2. Register telegram bot [here](https://telegram.me/botfather) 
-3. Create file env.list and put there bot access token
+3. Create file env.list and put there bot access token  
+   env.list 
    ```
-   echo 'BOT_ACCESS_TOKEN=<bot access token>' > env.list
+   BOT_ACCESS_TOKEN=<bot access token>
    ```
 4. Build docker image   
    ```
